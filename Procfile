@@ -1,1 +1,1 @@
-web: gunicorn app:app --log-file=-
+web: gunicorn <django-root-name(containing wsgi)>.wsgi --log-file -
